@@ -1,0 +1,63 @@
+{
+    "sections": [{
+            "id": 1,
+            "section_title": "Intro: Animation",
+            "section_id": "ANIMATION 100",
+            "instructor": "Freddy Mercury",
+            "department": "Animation",
+            "room": "100 Far Hall",
+            "capacity": 10,
+            "registered": 9
+        },
+        {
+            "id": 2,
+            "section_title": "Advanced Printmaking",
+            "section_id": "PRINTMAKING 200",
+            "instructor": "Annah Anti-Palindrome",
+            "department": "Printmaking",
+            "room": "200 Printmaking Studio",
+            "capacity": 20,
+            "registered": 20
+        },
+        {
+            "id": 3,
+            "section_title": "Drawing Figures",
+            "section_id": "VISART 200",
+            "instructor": "Peter Foo",
+            "department": "Visual Art",
+            "room": "103B Sather",
+            "capacity": 15,
+            "registered": 4
+        },
+        {
+            "id": 4,
+            "section_title": "Critical Thinking",
+            "section_id": "CRITICAL STUDIES 102",
+            "instructor": "Alison Garcia",
+            "department": "Critical Studies",
+            "room": "44 Prince",
+            "capacity": 10,
+            "registered": 8
+        },
+        {
+            "id": 5,
+            "section_title": "Film Production",
+            "section_id": "FILM 100",
+            "instructor": "Werner Herzog",
+            "department": "Film",
+            "room": "50 Film Studios",
+            "capacity": 10,
+            "registered": 5
+        },
+        {
+            "id": 6,
+            "section_title": "Directing Film",
+            "section_id": "FILM 202",
+            "instructor": "Werner Herzog",
+            "department": "Film",
+            "room": "23 Film Studios",
+            "capacity": 5,
+            "registered": 0
+        }
+    ]
+ }
