@@ -3,17 +3,13 @@ import json
 from .models import Section
 from django.http import JsonResponse, HttpResponse
 
-# Create your views here.
+# Displays all sections in course catalog
 def all_sections(req):
     sections = Section.objects.all()
     section_list = [section.to_json() for section in sections]
     return HttpResponse(json.dumps(section_list), content_type="application/json")
 
-def section_detail(req, id):
-    section = Section.objects.get(id = id)
-    section_info = [section.to_json()]
-    return HttpResponse(json.dumps(section_info), content_type="application/json")
-
+# Registers a student for a course. If full, returns an error.
 def section_register(req, id):
     section = Section.objects.get(id = id)
     if section.capacity == section.registered:
@@ -24,6 +20,7 @@ def section_register(req, id):
         section_info = [section.to_json()]
         return HttpResponse(json.dumps(section_info), content_type="application/json")
 
+# Drops a student from a course. 
 def section_drop(req, id):
     section = Section.objects.get(id = id)
     section.drop()

@@ -5,6 +5,5 @@ urlpatterns = [
     path('all', views.all_sections, name='all_sections'),
     path('<int:id>/register', views.section_register, name='section_register'),
     path('<int:id>/drop', views.section_drop, name='section_drop'),
-    path('<int:id>', views.section_detail, name='section_detail'),
     
 ]

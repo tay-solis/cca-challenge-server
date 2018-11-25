@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+# Section model contains course info, as well as methods which change the registered number if a student adds or drops a class. 
 class Section (models.Model):
     id = models.PositiveIntegerField(primary_key=True)
     section_title = models.CharField(max_length = 50)
